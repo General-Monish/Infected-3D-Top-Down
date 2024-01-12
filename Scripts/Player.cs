@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         float durationBetweenSmoothAndMoveInput = 0.1f;
         smoothMoveInput = Vector2.SmoothDamp(smoothMoveInput, moveInput, ref smoothInputSmoothVelocity, durationBetweenSmoothAndMoveInput);
-        rb.velocity = smoothMoveInput * speed;
+        rb.velocity = smoothMoveInput * speed; // smooth movement 
     }
     private void RotateInDireOfInput()
     {
