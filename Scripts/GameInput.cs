@@ -10,6 +10,7 @@ public class GameInput : MonoBehaviour
     {
         playerinputActions = new PlayerInputActions();
         playerinputActions.Player.Move.Enable();
+        playerinputActions.Player.MouseClick.Enable();
     }
 
     public Vector2 GetMovementNormalized()
@@ -19,4 +20,8 @@ public class GameInput : MonoBehaviour
         return moveInput;
     }
 
+    public bool IsMouseClicked()
+    {
+        return playerinputActions.Player.MouseClick.triggered;
+    }
 }
