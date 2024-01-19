@@ -16,12 +16,8 @@ public class GameInput : MonoBehaviour
     public Vector2 GetMovementNormalized()
     {
         Vector2 moveInput = playerinputActions.Player.Move.ReadValue<Vector2>();
+      
         moveInput = moveInput.normalized;
         return moveInput;
-    }
-
-    public bool IsMouseClicked()
-    {
-        return playerinputActions.Player.MouseClick.triggered;
     }
 }

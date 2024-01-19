@@ -9,10 +9,11 @@ public class PlayerStateManager : MonoBehaviour
    public PlayerIdolState idolState = new PlayerIdolState();
    public PlayerWalkingState walkingState = new PlayerWalkingState();
    public PlayerAttackingState attackingState = new PlayerAttackingState();
+    public WalkingWithMouseState WalkingWithMouseState = new WalkingWithMouseState();
 
     private void Start()
     {
-        curentState =walkingState;
+        curentState =WalkingWithMouseState;
         curentState.EnterState(this);
     }
     public void FixedUpdate()
