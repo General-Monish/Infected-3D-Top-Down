@@ -37,7 +37,7 @@ public class WalkingWithMouseState : PlayerBaseState
                 player.SwitchState(player.walkingState);
             }
         }
-      
+
 
         // Move towards the target position
         player.transform.position = Vector3.MoveTowards(player.transform.position, target, speed * Time.deltaTime);

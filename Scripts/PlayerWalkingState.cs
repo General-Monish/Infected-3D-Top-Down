@@ -16,10 +16,6 @@ public class PlayerWalkingState : PlayerBaseState
         rb = player.GetComponent<Rigidbody2D>();
         gameInput = player.GetComponent<GameInput>(); // gameinput ki rani
 
-        if (gameInput == null)
-        {
-            Debug.LogError("GameInput component not found on the player");
-        }
     }
 
     public override void FixedUpdateState(PlayerStateManager player)
@@ -37,10 +33,6 @@ public class PlayerWalkingState : PlayerBaseState
         {
             moveInput = gameInput.GetMovementNormalized();
             moveVelocity = moveInput * speed;
-        }
-        else
-        {
-            
         }
     }
     private void MovePlayer()
