@@ -8,15 +8,17 @@ public class PlayerWalkingState : PlayerBaseState
     private Vector2 moveInput;
     private Vector2 moveVelocity;
     private GameInput gameInput;
+   
 
     public override void EnterState(PlayerStateManager player)
     {
+        Debug.Log("This is Walking State");
         rb = player.GetComponent<Rigidbody2D>();
         gameInput = player.GetComponent<GameInput>(); // gameinput ki rani
 
         if (gameInput == null)
         {
-            Debug.LogError("GameInput component not found on the player. Make sure it is attached.");
+            Debug.LogError("GameInput component not found on the player");
         }
     }
 
@@ -27,7 +29,7 @@ public class PlayerWalkingState : PlayerBaseState
     }
     public override void OnCollisionEnter(PlayerStateManager player, Collision collision)
     {
-        // Handle collision logic if needed
+        
     }
     public override void UpdateState(PlayerStateManager player)
     {
@@ -38,7 +40,7 @@ public class PlayerWalkingState : PlayerBaseState
         }
         else
         {
-            Debug.LogError("GameInput not assigned. Make sure it is attached to the player.");
+            
         }
     }
     private void MovePlayer()
