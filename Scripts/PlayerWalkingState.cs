@@ -7,15 +7,12 @@ public class PlayerWalkingState : PlayerBaseState
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Vector2 moveVelocity;
-    private GameInput gameInput;
-   
-
+  
     public override void EnterState(PlayerStateManager player)
     {
         Debug.Log("This is Walking State");
         rb = player.GetComponent<Rigidbody2D>();
-        gameInput = player.GetComponent<GameInput>(); // gameinput ki rani
-
+       
     }
 
     public override void FixedUpdateState(PlayerStateManager player)
@@ -29,9 +26,9 @@ public class PlayerWalkingState : PlayerBaseState
     }
     public override void UpdateState(PlayerStateManager player)
     {
-        if (gameInput != null)
+        if (GameInput.Instance != null)
         {
-            moveInput = gameInput.GetMovementNormalized();
+            moveInput = GameInput.Instance.GetMovementNormalized();
             moveVelocity = moveInput * speed;
         }
     }
