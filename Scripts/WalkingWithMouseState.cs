@@ -66,11 +66,7 @@ public class WalkingWithMouseState : PlayerBaseState
 
     private void SetPlayerVelocity()
     {
-        _smoothedMovementInput = Vector2.SmoothDamp(
-                    _smoothedMovementInput,
-                    _movementInput,
-                    ref _movementInputSmoothVelocity,
-                    0.1f);
+        _smoothedMovementInput = Vector2.SmoothDamp(_smoothedMovementInput,_movementInput,ref _movementInputSmoothVelocity,0.1f);
 
         _rigidbody.velocity = _smoothedMovementInput * _speed;
     }
