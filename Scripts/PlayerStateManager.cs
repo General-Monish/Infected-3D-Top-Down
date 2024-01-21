@@ -7,7 +7,6 @@ public class PlayerStateManager : MonoBehaviour
     PlayerBaseState curentState;
 
    public PlayerIdolState idolState = new PlayerIdolState();
-   public PlayerWalkingState walkingState = new PlayerWalkingState();
    public PlayerAttackingState attackingState = new PlayerAttackingState();
     public WalkingWithMouseState WalkingWithMouseState = new WalkingWithMouseState();
 
