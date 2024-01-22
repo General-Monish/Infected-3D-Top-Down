@@ -16,9 +16,11 @@ public class PlayerIdolState : PlayerBaseState
         // Add any additional fixed update logic if needed
     }
 
-    public override void OnCollisionEnter(PlayerStateManager player, Collision collision)
+
+
+    public override void OnTriggerEnter2D(Collider2D collision)
     {
-        // Add collision handling logic if needed
+        throw new System.NotImplementedException();
     }
 
     public override void UpdateState(PlayerStateManager player)
