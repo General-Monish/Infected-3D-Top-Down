@@ -14,6 +14,7 @@ public class WalkingWithMouseState : PlayerBaseState
     private Vector2 _smoothedMovementInput;
     private Vector2 _movementInputSmoothVelocity;
     private float _speed=10f;
+    private float stopDistance=5f;
 
     [SerializeField]
     private float _rotationSpeed=900f;
@@ -30,9 +31,9 @@ public class WalkingWithMouseState : PlayerBaseState
         
     }
 
-    public override void OnCollisionEnter(PlayerStateManager player, Collision collision)
+    public override void OnTriggerEnter2D(Collider2D collision)
     {
-        
+      
     }
 
     public override void UpdateState(PlayerStateManager player)
@@ -51,14 +52,21 @@ public class WalkingWithMouseState : PlayerBaseState
             MousePosition.z = player.transform.position.z;
         }
 
-        SetPlayerVelocity();
-        RotateInDirectionOfInput(player);
+       
 
         // Check if the player is close to the target position, and reset movement input
         if (Vector2.Distance(player.transform.position, MousePosition) < 1f)
         {
             _movementInput = Vector2.zero;
         }
+
+        // Check if the player is close to the enemy to switch to attacking state
+        if (Vector2.Distance(player.transform.position, Enemy.instance.transform.position) < stopDistance)
+        {
+            player.SwitchState(player.attackingState);
+        }
+        SetPlayerVelocity();
+        RotateInDirectionOfInput(player);
     }
 
 
@@ -81,6 +89,8 @@ public class WalkingWithMouseState : PlayerBaseState
             _rigidbody.MoveRotation(rotation);
         }
     }
+
+   
 }
 
 

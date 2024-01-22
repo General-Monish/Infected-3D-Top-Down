@@ -25,6 +25,10 @@ public class PlayerStateManager : MonoBehaviour
         curentState.UpdateState(this);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        curentState.OnTriggerEnter2D(collision);
+    }
     public void SwitchState(PlayerBaseState state)
     {
         curentState=state;

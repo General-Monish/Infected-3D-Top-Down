@@ -20,10 +20,14 @@ public class PlayerWalkingState : PlayerBaseState
         MovePlayer();
         RotatePlayer();
     }
-    public override void OnCollisionEnter(PlayerStateManager player, Collision collision)
+
+ 
+
+    public override void OnTriggerEnter2D(Collider2D collision)
     {
-        
+      
     }
+
     public override void UpdateState(PlayerStateManager player)
     {
         if (GameInput.Instance != null)
