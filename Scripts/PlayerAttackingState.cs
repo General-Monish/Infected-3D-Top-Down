@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class PlayerAttackingState : PlayerBaseState
 {
-
+  public  PlayerWalkingState PlayerWalkingStateRR;
     public override void EnterState(PlayerStateManager player)
     {
         Debug.Log("attack statess");
+      
     }
 
     public override void FixedUpdateState(PlayerStateManager player)
@@ -19,11 +20,7 @@ public class PlayerAttackingState : PlayerBaseState
 
     public override void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("enemy"))
-        {
-            Debug.Log("enemy detected");
-           
-        }
+   
     }
 
  

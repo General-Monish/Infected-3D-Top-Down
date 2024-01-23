@@ -14,7 +14,7 @@ public class WalkingWithMouseState : PlayerBaseState
     private Vector2 _smoothedMovementInput;
     private Vector2 _movementInputSmoothVelocity;
     private float _speed=10f;
-    private float stopDistance=5f;
+/*    private float stopDistance=5f;*/
 
     [SerializeField]
     private float _rotationSpeed=900f;
@@ -33,10 +33,28 @@ public class WalkingWithMouseState : PlayerBaseState
 
     public override void OnTriggerEnter2D(Collider2D collision)
     {
-      
+       
     }
 
     public override void UpdateState(PlayerStateManager player)
+    {
+        MouseMovement(player);
+        SetPlayerVelocity();
+        RotateInDirectionOfInput(player);
+       /* EnemyDetected(player);*/
+    }
+
+ /*   private void EnemyDetected(PlayerStateManager player)
+    {
+        // Check if the player is close to the enemy to switch to attacking state
+        if (Vector2.Distance(player.transform.position, Enemy.instance.transform.position) < stopDistance)
+        {
+         
+          
+        }
+    }*/
+
+    private void MouseMovement(PlayerStateManager player)
     {
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
@@ -51,26 +69,12 @@ public class WalkingWithMouseState : PlayerBaseState
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePosition.z = player.transform.position.z;
         }
-
-       
-
         // Check if the player is close to the target position, and reset movement input
         if (Vector2.Distance(player.transform.position, MousePosition) < 1f)
         {
             _movementInput = Vector2.zero;
         }
-
-        // Check if the player is close to the enemy to switch to attacking state
-        if (Vector2.Distance(player.transform.position, Enemy.instance.transform.position) < stopDistance)
-        {
-            player.SwitchState(player.attackingState);
-        }
-        SetPlayerVelocity();
-        RotateInDirectionOfInput(player);
     }
-
-
-
 
     private void SetPlayerVelocity()
     {

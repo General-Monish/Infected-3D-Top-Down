@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour
             if (distanceToPlayer < detectionRadius)
             {
                 // Your logic for when the player is detected goes here
+             
                
             }
         }
