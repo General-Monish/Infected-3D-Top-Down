@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour
 
         if (_changeDir <= 0)
         {
-            float angleChange = Random.Range(90, 90f);
+            float angleChange = Random.Range(-90f, 90f);
             Quaternion rotation = Quaternion.AngleAxis(angleChange, transform.forward);
             targetDir = rotation * targetDir;
             _changeDir = Random.Range(1f, 2f);
@@ -51,19 +51,13 @@ public class EnemyAI : MonoBehaviour
     }
     private void RotateTowardsTarget()
     {
-       
-      
-        
             Quaternion TargetRotation = Quaternion.LookRotation(transform.forward, targetDir);
             Quaternion rotation = Quaternion.RotateTowards(transform.rotation, TargetRotation, rotationSpeed * Time.deltaTime);
             rb.SetRotation(rotation);
-        
     }
 
     private void SetVelocity()
     {
-        
             rb.velocity = transform.up * speed;
-        
     }
 }
