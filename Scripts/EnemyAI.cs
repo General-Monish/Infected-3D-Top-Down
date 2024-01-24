@@ -8,6 +8,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float rotationSpeed;
     private Rigidbody2D rb;
     private Vector2 targetDir;
+    private float _changeDir;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -24,40 +25,45 @@ public class EnemyAI : MonoBehaviour
 
    private void UpdateTargetDir()
     {
-        if (PlayerAwarenessController.instance.AwarenessOfPlayer)
-        {
-            targetDir = PlayerAwarenessController.instance.DirToPlayer;
-        }
-        else
-        {
-            targetDir = Vector2.zero;
-        }
-
+        HandleRandomDirectionChange();
+        MovringWawayFromPlayer();
     }
 
+    private void MovringWawayFromPlayer()
+    {
+        if (PlayerAwarenessController.instance.AwarenessOfPlayer)
+        {
+            targetDir = -PlayerAwarenessController.instance.DirToPlayer;
+        }
+    }
+
+    private void HandleRandomDirectionChange()
+    {
+        _changeDir -= Time.deltaTime;
+
+        if (_changeDir <= 0)
+        {
+            float angleChange = Random.Range(90, 90f);
+            Quaternion rotation = Quaternion.AngleAxis(angleChange, transform.forward);
+            targetDir = rotation * targetDir;
+            _changeDir = Random.Range(1f, 2f);
+        }
+    }
     private void RotateTowardsTarget()
     {
-        if (targetDir == Vector2.zero)
-        {
-            return;
-        }
-        else
-        {
+       
+      
+        
             Quaternion TargetRotation = Quaternion.LookRotation(transform.forward, targetDir);
             Quaternion rotation = Quaternion.RotateTowards(transform.rotation, TargetRotation, rotationSpeed * Time.deltaTime);
             rb.SetRotation(rotation);
-        }
+        
     }
 
     private void SetVelocity()
     {
-        if (targetDir == Vector2.zero)
-        {
-            rb.velocity = Vector2.zero;
-        }
-        else
-        {
+        
             rb.velocity = transform.up * speed;
-        }
+        
     }
 }
