@@ -15,7 +15,7 @@ public class PlayerAwarenessController : MonoBehaviour
     private void Awake()
     {
         
-        player = FindObjectOfType<PlayerStateManager>().transform;
+        player = FindObjectOfType<Player>().transform;
         if (instance == null)
         {
             instance = this;
