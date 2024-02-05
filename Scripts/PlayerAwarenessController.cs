@@ -9,7 +9,8 @@ public class PlayerAwarenessController : MonoBehaviour
     public bool AwarenessOfPlayer;
     [HideInInspector]
     public Vector2 DirToPlayer;
-   [SerializeField] private float playerAwarenessDistance;
+   [SerializeField] 
+    private float playerAwarenessDistance;
     private Transform player;
     // Start is called before the first frame update
     private void Awake()
