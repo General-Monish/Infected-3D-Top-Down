@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance { get; private set; }
+
     private Vector3 MousePosition;
     private Rigidbody2D _rigidbody;
     private Vector2 _movementInput;
@@ -13,6 +15,18 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float _rotationSpeed = 900f;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        if(instance!=null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
     void Start()
     {
         Debug.Log("This is Walking With Mouse ");
@@ -29,7 +43,7 @@ public class Player : MonoBehaviour
     }
     private void MouseMovement()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             // Update target position on right-click and left-click
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -39,8 +53,8 @@ public class Player : MonoBehaviour
             _movementInput = (MousePosition - transform.position).normalized;
 
             // Set the target position directly
-            MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            MousePosition.z = transform.position.z;
+            /*MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            MousePosition.z = transform.position.z;*/
         }
         // Check if the player is close to the target position, and reset movement input
         if (Vector2.Distance(transform.position, MousePosition) < 1f)
