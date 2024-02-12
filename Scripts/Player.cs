@@ -29,7 +29,6 @@ public class Player : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log("This is Walking With Mouse ");
         MousePosition = transform.position;
         _rigidbody = GetComponent<Rigidbody2D>();
     }
@@ -45,7 +44,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Update target position on right-click and left-click
+            // Update target position on  left-click
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePosition.z = transform.position.z;
 
