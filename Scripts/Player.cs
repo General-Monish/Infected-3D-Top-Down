@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,13 +12,15 @@ public class Player : MonoBehaviour
     private Vector2 _movementInput;
     private Vector2 _smoothedMovementInput;
     private Vector2 _movementInputSmoothVelocity;
-   [SerializeField] private float _speed = 10f;
+    [SerializeField] private float _speed = 10f;
     [SerializeField]
     private float _rotationSpeed = 900f;
+    private Animator anim;
     // Start is called before the first frame update
 
     private void Awake()
     {
+
         if(instance!=null)
         {
             Destroy(gameObject);
@@ -26,6 +29,7 @@ public class Player : MonoBehaviour
         {
             instance = this;
         }
+        anim = GetComponent<Animator>();
     }
     void Start()
     {
@@ -44,6 +48,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            anim.SetBool("walk",true);
             // Update target position on  left-click
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePosition.z = transform.position.z;
@@ -59,7 +64,9 @@ public class Player : MonoBehaviour
         if (Vector2.Distance(transform.position, MousePosition) < 1f)
         {
             _movementInput = Vector2.zero;
+            anim.SetBool("walk", false);
         }
+        
     }
 
     private void SetPlayerVelocity()
