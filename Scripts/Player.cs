@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
@@ -21,7 +22,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
 
-        if(instance!=null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -48,7 +49,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            anim.SetBool("walk",true);
+            anim.SetBool("walk", true);
             // Update target position on  left-click
             MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePosition.z = transform.position.z;
@@ -56,8 +57,8 @@ public class Player : MonoBehaviour
             // Set movement input based on the new target position
             _movementInput = (MousePosition - transform.position).normalized;
 
-            // Set the target position directly
-            /*MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+          /*  // Set the target position directly
+            MousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             MousePosition.z = transform.position.z;*/
         }
         // Check if the player is close to the target position, and reset movement input
@@ -66,7 +67,7 @@ public class Player : MonoBehaviour
             _movementInput = Vector2.zero;
             anim.SetBool("walk", false);
         }
-        
+
     }
 
     private void SetPlayerVelocity()
@@ -87,3 +88,7 @@ public class Player : MonoBehaviour
         }
     }
 }
+
+
+
+

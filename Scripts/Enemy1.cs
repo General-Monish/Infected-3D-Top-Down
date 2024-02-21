@@ -8,6 +8,7 @@ public class Enemy1 : MonoBehaviour
     public Transform target;
     
     NavMeshAgent agent;
+  [SerializeField]  private float rotatespeed=10f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +22,11 @@ public class Enemy1 : MonoBehaviour
     void Update()
     {
         agent.SetDestination(target.position);
+        rotate();
+    }
+
+    void rotate()
+    {
+        transform.up = Vector2.Lerp(transform.forward, target.position, Time.deltaTime * rotatespeed);
     }
 }
