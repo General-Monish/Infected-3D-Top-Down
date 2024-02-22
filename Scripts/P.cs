@@ -8,7 +8,8 @@ public class P : MonoBehaviour
     private Vector3 mousePosition;
     private NavMeshAgent agent;
     private Animator anim;
-   [SerializeField] private float rotatespeed=10f;
+    private bool isClicked = false;
+    //[SerializeField] private float rotatespeed = 10f;
 
     private void Awake()
     {
@@ -35,7 +36,6 @@ public class P : MonoBehaviour
         MouseMovement();
         SetDestination();
         rotate();
-        
     }
 
     private void MouseMovement()
@@ -45,23 +45,38 @@ public class P : MonoBehaviour
             anim.SetBool("walk", true);
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = transform.position.z;
+            isClicked = true;
         }
 
-        // Check if the player is close to the target position, and reset movement input
-        if (Vector2.Distance(transform.position, mousePosition) < 1f)
+        //  player is close to the target position, and reset movement input
+        if (Vector2.Distance(transform.position, mousePosition) < .1f)
         {
             anim.SetBool("walk", false);
+            isClicked = false;
         }
     }
 
     private void SetDestination()
     {
-        agent.SetDestination(mousePosition);
+        if (isClicked)
+        {
+            agent.SetDestination(mousePosition);
+        }
     }
 
     void rotate()
     {
-        transform.up = Vector2.Lerp(transform.forward, mousePosition, Time.deltaTime * rotatespeed);
+        Vector3 lookDirection = mousePosition - transform.position;
+        float distanceToTarget = Vector2.Distance(transform.position, mousePosition);
+
+        // if the player is close to the target
+        if (distanceToTarget > 1f)
+        {
+            float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+
+            // Use LookAt to set the rotation smoothly
+            transform.up = lookDirection.normalized;
+        }
     }
 
 }
