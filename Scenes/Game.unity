@@ -569,93 +569,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 8812704315591523332}
   smoothSpeed: 0.125
---- !u!1 &557597973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 557597975}
-  - component: {fileID: 557597974}
-  m_Layer: 0
-  m_Name: A*
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &557597974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557597973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  data:
-    dataString: UEsDBBQAAAgIAMArIeyUTjYpWQIAABIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VEuP2jAQ/ivI51IliIXd3trAsj2woKXVXnIx8YRYOHbkB0/x3zt2EpJS9cTwzTcz3zycK+HSVJBZpReas6ViQL4NiLfJl0HnfIMT3Sm54RdoOZ+c2cKTaOB8UMsV4rEPM6oEq3n2Xe6EJ0cIOslzpcs520GijDUI51QYQJdW1kdLhK4DcsKf4YsPOaM1mnrrgtZLNLihmYG0oDtqS2xpNcvJTNCyAuYld+RpQ45rlsReGoLXnSkhuGmEEHuuQqMJrYzDNpDAOMXGQvXoq89VAN8V1svsh6/y3IBtNGl6nnGNE6rzkh+qHltJzb4WdqDC+UqTcRBV51z+4x7GwZ1rVb61ZePIl7AFz/Yf9JxRY3tj7cOzTnkcxnOkYk+3Aj4LkO9qoZWTDJ1WOx/qDIxm3d97Z0kB2b7Da6kPoKv+vxzfwy00f0oEL7dhkOMa2AgVBh5WDxpX8xMFh8MwTQpEvYrfBn7RXf+CGscr18aiq+lSenlb5bSnknmYme/G2URpCQFuRFcgqbDnNaaxjxt88PXKPnheqX8rTfHG1z6Bh5AAd/woenCt1fG+LFOo4xJMsXJWcAmdaO94xzklSsr6wPozacM2Tuc064XtHGd/nxaJYzaiL2w0YdHTNh/FwwmdTp8nEYyfKLDoeUzC7XGJfVKxroU248GtyS65xDtrPyGDhaZVOHam6XHBL6XqjZzLXG0yDSBXdYa7cNBYBJ8lmzOOA9qAtVyGfZNrSoTK9sDSe6I0dDo/WU3TLktKKn5Q1iMpScI3IyUevt/yWsOBw9EXb5PdyO0PUEsDBBQAAAgIAMArIezvTgpNbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSoWGKUaJlipFZioFpUpqRoa5Zorm5hZlBqolpYmqKgYWJUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAMArIeyUTjYpWQIAABIFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAMArIezvTgpNbQAAAHgAAAAJACQAAAAAAAAAAAAAAKYCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
-    upgradeData: 
-    file_cachedStartup: {fileID: 0}
-    data_cachedStartup: 
-    cacheStartup: 0
-  showNavGraphs: 1
-  showUnwalkableNodes: 1
-  debugMode: 0
-  debugFloor: 0
-  debugRoof: 1
-  manualDebugFloorRoof: 0
-  showSearchTree: 0
-  unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
-  maxNearestNodeDistance: 100
-  scanOnStartup: 1
-  fullGetNearestSearch: 0
-  prioritizeGraphs: 0
-  prioritizeGraphsLimit: 1
-  colorSettings:
-    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
-    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
-    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
-    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
-    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
-    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
-    _AreaColors:
-    - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
-  heuristic: 2
-  heuristicScale: 1
-  threadCount: 1
-  maxFrameTime: 1
-  batchGraphUpdates: 0
-  graphUpdateBatchingInterval: 0.2
-  euclideanEmbedding:
-    mode: 0
-    seed: 0
-    pivotPointRoot: {fileID: 0}
-    spreadOutCount: 1
-  showGraphs: 1
---- !u!4 &557597975
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557597973}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607803300
 GameObject:
   m_ObjectHideFlags: 0
@@ -3584,20 +3497,41 @@ MonoBehaviour:
   maxSpeed: 1
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
-    serializedVersion: 2
     m_Bits: 4294967295
   centerOffsetCompatibility: NaN
   repathRateCompatibility: NaN
   canSearchCompability: 0
   orientation: 1
   enableRotation: 1
+  simulatedPosition: {x: 0, y: 0, z: 0}
+  simulatedRotation: {x: 0, y: 0, z: 0, w: 0}
+  accumulatedMovementDelta: {x: 0, y: 0, z: 0}
+  velocity2D: {x: 0, y: 0}
+  verticalVelocity: 0
+  seeker: {fileID: 0}
+  tr: {fileID: 0}
+  rigid: {fileID: 0}
+  rigid2D: {fileID: 0}
+  controller: {fileID: 0}
   autoRepath:
     mode: 2
     interval: 0.5
     sensitivity: 10
     maximumInterval: 2
     visualizeSensitivity: 0
+    lastDestination: {x: Infinity, y: Infinity, z: Infinity}
+    lastRepathTime: -Infinity
+  <usingGravity>k__BackingField: 0
+  lastDeltaTime: 0
+  prevFrame: 0
+  prevPosition1: {x: 0, y: 0, z: 0}
+  prevPosition2: {x: 0, y: 0, z: 0}
+  lastDeltaPosition: {x: 0, y: 0}
+  waitingForPathCalculation: 0
   targetCompatibility: {fileID: 0}
+  startHasRun: 0
+  <destination>k__BackingField: {x: Infinity, y: Infinity, z: Infinity}
+  <isStopped>k__BackingField: 0
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 1
@@ -3607,6 +3541,7 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+  <reachedEndOfPath>k__BackingField: 0
 --- !u!114 &7050789680051505736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3628,13 +3563,14 @@ MonoBehaviour:
     exactEndPoint: 3
     useRaycasting: 0
     mask:
-      serializedVersion: 2
       m_Bits: 4294967295
     useGraphRaycasting: 0
   traversableTags: -1
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+  graphMaskCompatibility: -1
+  lastPathID: 0
 --- !u!4 &7157506592235059404
 Transform:
   m_ObjectHideFlags: 0
@@ -4604,7 +4540,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 557597975}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 2017750942}
