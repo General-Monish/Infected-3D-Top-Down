@@ -15,3 +15,4 @@ public class CameraFollow : MonoBehaviour
         }
     }
 }
+// camera script
