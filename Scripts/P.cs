@@ -9,7 +9,7 @@ public class P : MonoBehaviour
     private NavMeshAgent agent;
     private Animator anim;
     private bool isClicked = false;
-    //[SerializeField] private float rotatespeed = 10f;
+    private bool isAttacking = false;
 
     private void Awake()
     {
@@ -33,9 +33,12 @@ public class P : MonoBehaviour
 
     void Update()
     {
-        MouseMovement();
-        SetDestination();
-        rotate();
+        if (!isAttacking)
+        {
+            MouseMovement();
+            SetDestination();
+            rotate();
+        }
     }
 
     private void MouseMovement()
@@ -48,7 +51,7 @@ public class P : MonoBehaviour
             isClicked = true;
         }
 
-        //  player is close to the target position, and reset movement input
+        // Player is close to the target position, reset movement input
         if (Vector2.Distance(transform.position, mousePosition) < .1f)
         {
             anim.SetBool("walk", false);
@@ -64,18 +67,50 @@ public class P : MonoBehaviour
         }
     }
 
+    /*    void rotate()
+        {
+            Vector3 lookDirection = mousePosition - transform.position;
+            float distanceToTarget = Vector2.Distance(transform.position, mousePosition);
+
+            // the player is close to the target
+            if (distanceToTarget > 1f)
+            {
+                float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+
+                // Use LookAt to set the rotation smoothly
+                transform.up = lookDirection.normalized;
+            }
+        }*/
     void rotate()
     {
-        Vector3 lookDirection = mousePosition - transform.position;
-        float distanceToTarget = Vector2.Distance(transform.position, mousePosition);
-
-        // if the player is close to the target
-        if (distanceToTarget > 1f)
+        // Checking if the agent has a path
+        if (agent.hasPath)
         {
+            // Getting the direction to the next waypoint
+            Vector3 nextWaypoint = agent.path.corners[1]; // Assuming the path has at least one corner
+            Vector3 lookDirection = nextWaypoint - transform.position;
+
+            // Calculate the rotation angle
             float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 
+            // Adjust the angle to make player face the correct direction
+            angle -= 90f;
+
             // Use LookAt to set the rotation smoothly
-            transform.up = lookDirection.normalized;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
+    }
+
+
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            
+            anim.SetTrigger("attack");
+            Destroy(collision.gameObject, 0.5f);
         }
     }
 

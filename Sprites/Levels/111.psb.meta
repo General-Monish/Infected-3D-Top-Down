@@ -1,0 +1,2008 @@
+fileFormatVersion: 2
+guid: 10697e36f211ccf41a7671fd7fbe76be
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Laboratory Setup copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 1492
+      width: 517
+      height: 244
+    spriteID: 7a71113905e3fc04592e23b467a055d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 1492}
+    spritePosition: {x: 1725, y: 2528}
+  - name: Equipment2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7283
+      y: 424
+      width: 197
+      height: 112
+    spriteID: 5304ae821bc67d843869d6ae274c125c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7283, y: 424}
+    spritePosition: {x: 2254, y: 1370}
+  - name: Equipment1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4581
+      y: 3300
+      width: 202
+      height: 160
+    spriteID: dfeb09e582a96d948a335e1bc7c4fc9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4581, y: 3300}
+    spritePosition: {x: 1570, y: 1398}
+  - name: Wheel Chair copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4691
+      y: 1492
+      width: 144
+      height: 221
+    spriteID: 9f71ab29549e1a245ae19b9d116740ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4691, y: 1492}
+    spritePosition: {x: 3280, y: 3730}
+  - name: Wheel Chair copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4679
+      y: 2774
+      width: 144
+      height: 221
+    spriteID: caec732a55787704c8be579ea8c6629a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4679, y: 2774}
+    spritePosition: {x: 3095, y: 3729}
+  - name: Wheel Chair copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4679
+      y: 3037
+      width: 144
+      height: 221
+    spriteID: 6935cce596177d64f998f1762751b55c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4679, y: 3037}
+    spritePosition: {x: 2855, y: 3737}
+  - name: Wheel Chair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4708
+      y: 1200
+      width: 144
+      height: 221
+    spriteID: 1cfcd2ecc2a7ddd409292c0fac34d8ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4708, y: 1200}
+    spritePosition: {x: 2663, y: 3737}
+  - name: Main Bed
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 379
+      width: 465
+      height: 340
+    spriteID: 313786eccb3e08341a45fd5959f11c05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 379}
+    spritePosition: {x: 2728, y: 1044}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 2392
+      width: 364
+      height: 183
+    spriteID: 0aa135672d5e3594a9c8c5207a7a81bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 2392}
+    spritePosition: {x: 1066, y: 1226}
+  - name: Laboratory Bed2 copy 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5799
+      y: 424
+      width: 363
+      height: 104
+    spriteID: 41fc01d91e6920a46986d466aa9b0be8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5799, y: 424}
+    spritePosition: {x: 793, y: 175}
+  - name: Laboratory Bed2 copy 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6170
+      y: 424
+      width: 363
+      height: 104
+    spriteID: 73bc9a381b9cbe641a7ea292bbdfaf37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6170, y: 424}
+    spritePosition: {x: 793, y: 397}
+  - name: Laboratory Bed2 copy 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6541
+      y: 424
+      width: 363
+      height: 104
+    spriteID: 941c5c4a495dd814a9b197bfce2a8bbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6541, y: 424}
+    spritePosition: {x: 287, y: 175}
+  - name: Laboratory Bed2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6912
+      y: 424
+      width: 363
+      height: 104
+    spriteID: 3644560ed2aeb75469b69344aa6fbad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6912, y: 424}
+    spritePosition: {x: 287, y: 397}
+  - name: Seating copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5369
+      y: 424
+      width: 422
+      height: 115
+    spriteID: bec7ab83a4181ba4c8be15ce59d8bdbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5369, y: 424}
+    spritePosition: {x: 687, y: 3811}
+  - name: reception copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 1200
+      width: 534
+      height: 284
+    spriteID: c5cf3150e763e3941b68f1ac1b20f49a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 1200}
+    spritePosition: {x: 924, y: 2672}
+  - name: Seating copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4935
+      y: 424
+      width: 426
+      height: 116
+    spriteID: 7cba2f4858dd20b46bcebc5d8beeb474
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4935, y: 424}
+    spritePosition: {x: 137, y: 3575}
+  - name: Seating
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7736
+      y: 4
+      width: 431
+      height: 118
+    spriteID: e77bfc51722d7854f883916c977e48e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7736, y: 4}
+    spritePosition: {x: 143, y: 3807}
+  - name: Table copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 2583
+      width: 364
+      height: 183
+    spriteID: 519985b91d2519144b1914f24bfa8322
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 2583}
+    spritePosition: {x: 2161, y: 2962}
+  - name: Wheel Chair copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4581
+      y: 3468
+      width: 144
+      height: 221
+    spriteID: 506717444cf214940b12026639854407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4581, y: 3468}
+    spritePosition: {x: 2394, y: 2588}
+  - name: Equipment copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 2774
+      width: 253
+      height: 255
+    spriteID: 52352f6ac8fa95d48a20d1a6d708d407
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 2774}
+    spritePosition: {x: 2215, y: 3672}
+  - name: Equipment
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 3037
+      width: 253
+      height: 255
+    spriteID: 744665bcc59fa594fb5f1e06f745efdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 3037}
+    spritePosition: {x: 1599, y: 3670}
+  - name: Bed2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4514
+      y: 727
+      width: 194
+      height: 420
+    spriteID: 1e1b6aa5ed2baee47973ee26e26b4d30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4514, y: 727}
+    spritePosition: {x: 3800, y: 2011}
+  - name: Bed2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 1964
+      width: 194
+      height: 420
+    spriteID: cc1011447a5aa50449fdf44db1ee5965
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 1964}
+    spritePosition: {x: 2654, y: 2686}
+  - name: Seating2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4639
+      y: 379
+      width: 110
+      height: 316
+    spriteID: 720fca8eff1c8b540bfba45b65e098d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4639, y: 379}
+    spritePosition: {x: 3836, y: 3018}
+  - name: Seating2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4620
+      y: 1964
+      width: 110
+      height: 316
+    spriteID: ee3434f337bd6f34aa73ae7ea3bdc334
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4620, y: 1964}
+    spritePosition: {x: 3836, y: 3514}
+  - name: Laboratory Setup
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 1744
+      width: 244
+      height: 517
+    spriteID: 8ea84729c771138459e66e37a6701bde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 1744}
+    spritePosition: {x: 2982, y: 1901}
+  - name: Main Bed copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 727
+      width: 340
+      height: 465
+    spriteID: 4705d51e4ecf5cc488f3c7844ba3fd01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 727}
+    spritePosition: {x: 1873, y: 1443}
+  - name: Microscope
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4733
+      y: 3883
+      width: 74
+      height: 128
+    spriteID: 46c12fa5dd35b0148a805be48a6f060b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4733, y: 3883}
+    spritePosition: {x: 2978, y: 1672}
+  - name: reception
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 4
+      width: 691
+      height: 367
+    spriteID: 86804381731d67840a88db67b7ff2c8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 4}
+    spritePosition: {x: 3280, y: 117}
+  - name: Outer Wall1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4865
+      y: 4
+      width: 62
+      height: 4056
+    spriteID: f762856094e8d6c44a7283473088b5a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4865, y: 4}
+    spritePosition: {x: 18, y: 20}
+  - name: Outer Wall2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4090
+      y: 4068
+      width: 4053
+      height: 65
+    spriteID: 79d557e6e8b1fb544b83a4cfef9e63c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4090, y: 4068}
+    spritePosition: {x: 18, y: 4011}
+  - name: Outer Wall3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4090
+      y: 4
+      width: 68
+      height: 4056
+    spriteID: ae4b0ce7049f1794a8d813e84c5ca5c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4090, y: 4}
+    spritePosition: {x: 4005, y: 20}
+  - name: Outer Wall4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4935
+      y: 260
+      width: 1821
+      height: 66
+    spriteID: dc6eb112cf058494db5da2790dc11137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4935, y: 260}
+    spritePosition: {x: 2252, y: 20}
+  - name: Outer Wall5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4935
+      y: 182
+      width: 1769
+      height: 70
+    spriteID: 231f5cfebe4213748ba2cfaa66ca0208
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4935, y: 182}
+    spritePosition: {x: 69, y: 20}
+  - name: Inner Wall1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7777
+      y: 424
+      width: 304
+      height: 62
+    spriteID: aeb7369bc9d23574e8856305fa04d24e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7777, y: 424}
+    spritePosition: {x: 80, y: 2567}
+  - name: Inner Wall2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7417
+      y: 260
+      width: 302
+      height: 62
+    spriteID: 8d6348fd097537249abf745d73a731dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7417, y: 260}
+    spritePosition: {x: 82, y: 1467}
+  - name: Inner Wall3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6764
+      y: 260
+      width: 645
+      height: 66
+    spriteID: 986e9010dd393eb469dbc85b611cdfc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6764, y: 260}
+    spritePosition: {x: 881, y: 2565}
+  - name: Inner Wall4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4716
+      y: 727
+      width: 139
+      height: 347
+    spriteID: 611b86bd0d8efea4b87c8ee133d7c16e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4716, y: 727}
+    spritePosition: {x: 1141, y: 2282}
+  - name: Inner Wall5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4757
+      y: 379
+      width: 96
+      height: 302
+    spriteID: 5192925b2c538de46ab8de42627c3113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4757, y: 379}
+    spritePosition: {x: 1156, y: 1524}
+  - name: Inner Wall6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4935
+      y: 334
+      width: 644
+      height: 82
+    spriteID: 572d8152bc6c07b4db55fe441502ac65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4935, y: 334}
+    spritePosition: {x: 881, y: 1459}
+  - name: Inner Wall7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4733
+      y: 3468
+      width: 61
+      height: 407
+    spriteID: 3f92ef2d32102124c8f4ba85acbd91fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4733, y: 3468}
+    spritePosition: {x: 1465, y: 3604}
+  - name: Inner Wall8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4504
+      y: 3300
+      width: 69
+      height: 628
+    spriteID: 0a7af8f017e75e443be24af1e175e367
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4504, y: 3300}
+    spritePosition: {x: 1459, y: 2605}
+  - name: Inner Wall9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 2269
+      width: 73
+      height: 1387
+    spriteID: 3d8219d575b731d49a4ab9fd6ce24d44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 2269}
+    spritePosition: {x: 1456, y: 85}
+  - name: Inner Wall10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5986
+      y: 4
+      width: 1044
+      height: 137
+    spriteID: 935aa7d3f03d3bb4e894016da57cac39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5986, y: 4}
+    spritePosition: {x: 1521, y: 2802}
+  - name: Inner Wall11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4738
+      y: 1964
+      width: 65
+      height: 414
+    spriteID: 96fe5c2508a7d0b45bb7d3fd565821d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4738, y: 1964}
+    spritePosition: {x: 2561, y: 3604}
+  - name: Inner Wall12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 3300
+      width: 78
+      height: 666
+    spriteID: dc60377b4e81376469f5a30f3a322a23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 3300}
+    spritePosition: {x: 2552, y: 2567}
+  - name: Inner Wall13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4935
+      y: 4
+      width: 1043
+      height: 170
+    spriteID: 8f8c7fe068991d54fbba33b845324b01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4935, y: 4}
+    spritePosition: {x: 1521, y: 1167}
+  - name: Inner Wall14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5587
+      y: 334
+      width: 665
+      height: 77
+    spriteID: 2f7d45007da4e7e48b4dcf05c80a0087
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5587, y: 334}
+    spritePosition: {x: 2615, y: 2566}
+  - name: Inner Wall15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4247
+      y: 3320
+      width: 87
+      height: 660
+    spriteID: 7a38ecb3bc9e4d649b8e80ebcca1558f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4247, y: 3320}
+    spritePosition: {x: 2546, y: 869}
+  - name: Inner Wall16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4166
+      y: 3664
+      width: 67
+      height: 378
+    spriteID: 17bdfb24a7bdc4140b68b10a664c77c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4166, y: 3664}
+    spritePosition: {x: 2561, y: 79}
+  - name: Inner Wall17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4247
+      y: 2269
+      width: 84
+      height: 1043
+    spriteID: 9d0ed2835cb70a343b5fd181d852e389
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4247, y: 2269}
+    spritePosition: {x: 2846, y: 1528}
+  - name: Inner Wall18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7038
+      y: 4
+      width: 690
+      height: 161
+    spriteID: 0b63bbfbec3f73a40a9935c829f33fba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7038, y: 4}
+    spritePosition: {x: 2590, y: 1384}
+  - name: Inner Wall19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7727
+      y: 260
+      width: 281
+      height: 64
+    spriteID: 03e6f931d31b9ca4cb9447a8d9814731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7727, y: 260}
+    spritePosition: {x: 3733, y: 2566}
+  - name: Inner Wall20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7488
+      y: 424
+      width: 281
+      height: 70
+    spriteID: eabf0544f3ef4044b91d608f23711af3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7488, y: 424}
+    spritePosition: {x: 3733, y: 1463}
+  - name: Door
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4418
+      y: 1744
+      width: 421
+      height: 212
+    spriteID: 63da90fe4e3536341a0743efddb9c123
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4418, y: 1744}
+    spritePosition: {x: 1833, y: 24}
+  - name: Floor copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4078
+      height: 4076
+    spriteID: 60d4ede01cd2f4343be9c8ac7300bd58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 18, y: 0}
+  - name: Floor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4088
+      width: 4078
+      height: 4076
+    spriteID: 0aedcd8ff8891894c81a8fd9800e3800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4088}
+    spritePosition: {x: 18, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Level1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f443b729cd575f64fbc3c12ee8ea9cbf
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Room1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: ba78463fd3180594ebd46cecef8c1117
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Laboratory Setup copy
+    spriteName: Laboratory Setup copy
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 7a71113905e3fc04592e23b467a055d9
+    layerID: 175
+    mosaicPosition: {x: 4166, y: 1492}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Equipment2
+    spriteName: Equipment2
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 5304ae821bc67d843869d6ae274c125c
+    layerID: 8
+    mosaicPosition: {x: 7283, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Equipment1
+    spriteName: Equipment1
+    isGroup: 0
+    parentIndex: 1
+    spriteID: dfeb09e582a96d948a335e1bc7c4fc9e
+    layerID: 7
+    mosaicPosition: {x: 4581, y: 3300}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wheel Chair copy 4
+    spriteName: Wheel Chair copy 4
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 9f71ab29549e1a245ae19b9d116740ac
+    layerID: 171
+    mosaicPosition: {x: 4691, y: 1492}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wheel Chair copy 3
+    spriteName: Wheel Chair copy 3
+    isGroup: 0
+    parentIndex: 1
+    spriteID: caec732a55787704c8be579ea8c6629a
+    layerID: 170
+    mosaicPosition: {x: 4679, y: 2774}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wheel Chair copy 2
+    spriteName: Wheel Chair copy 2
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 6935cce596177d64f998f1762751b55c
+    layerID: 169
+    mosaicPosition: {x: 4679, y: 3037}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wheel Chair
+    spriteName: Wheel Chair
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 1cfcd2ecc2a7ddd409292c0fac34d8ed
+    layerID: 155
+    mosaicPosition: {x: 4708, y: 1200}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Main Bed
+    spriteName: Main Bed
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 313786eccb3e08341a45fd5959f11c05
+    layerID: 6
+    mosaicPosition: {x: 4166, y: 379}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: af1dcc8338f1f4f4cbdf9cab935f4fd2
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 0aa135672d5e3594a9c8c5207a7a81bc
+    layerID: 157
+    mosaicPosition: {x: 4418, y: 2392}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Laboratory Bed2 copy 6
+    spriteName: Laboratory Bed2 copy 6
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 41fc01d91e6920a46986d466aa9b0be8
+    layerID: 154
+    mosaicPosition: {x: 5799, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Laboratory Bed2 copy 5
+    spriteName: Laboratory Bed2 copy 5
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 73bc9a381b9cbe641a7ea292bbdfaf37
+    layerID: 153
+    mosaicPosition: {x: 6170, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Laboratory Bed2 copy 4
+    spriteName: Laboratory Bed2 copy 4
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 941c5c4a495dd814a9b197bfce2a8bbf
+    layerID: 152
+    mosaicPosition: {x: 6541, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Laboratory Bed2 copy
+    spriteName: Laboratory Bed2 copy
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 3644560ed2aeb75469b69344aa6fbad9
+    layerID: 13
+    mosaicPosition: {x: 6912, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 1b21d96f71121bd4ea99f6bcda4404ec
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Seating copy 2
+    spriteName: Seating copy 2
+    isGroup: 0
+    parentIndex: 16
+    spriteID: bec7ab83a4181ba4c8be15ce59d8bdbb
+    layerID: 16
+    mosaicPosition: {x: 5369, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: reception copy
+    spriteName: reception copy
+    isGroup: 0
+    parentIndex: 16
+    spriteID: c5cf3150e763e3941b68f1ac1b20f49a
+    layerID: 163
+    mosaicPosition: {x: 4166, y: 1200}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Seating copy
+    spriteName: Seating copy
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 7cba2f4858dd20b46bcebc5d8beeb474
+    layerID: 15
+    mosaicPosition: {x: 4935, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Seating
+    spriteName: Seating
+    isGroup: 0
+    parentIndex: 16
+    spriteID: e77bfc51722d7854f883916c977e48e4
+    layerID: 14
+    mosaicPosition: {x: 7736, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: fabd65931864b4b4e88059dba3bd99ce
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Table copy
+    spriteName: Table copy
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 519985b91d2519144b1914f24bfa8322
+    layerID: 173
+    mosaicPosition: {x: 4418, y: 2583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wheel Chair copy
+    spriteName: Wheel Chair copy
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 506717444cf214940b12026639854407
+    layerID: 168
+    mosaicPosition: {x: 4581, y: 3468}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Equipment copy
+    spriteName: Equipment copy
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 52352f6ac8fa95d48a20d1a6d708d407
+    layerID: 174
+    mosaicPosition: {x: 4418, y: 2774}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Equipment
+    spriteName: Equipment
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 744665bcc59fa594fb5f1e06f745efdb
+    layerID: 20
+    mosaicPosition: {x: 4418, y: 3037}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 8534abdf9db5fc748845666923195101
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bed2 copy
+    spriteName: Bed2 copy
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 1e1b6aa5ed2baee47973ee26e26b4d30
+    layerID: 166
+    mosaicPosition: {x: 4514, y: 727}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bed2
+    spriteName: Bed2
+    isGroup: 0
+    parentIndex: 26
+    spriteID: cc1011447a5aa50449fdf44db1ee5965
+    layerID: 165
+    mosaicPosition: {x: 4418, y: 1964}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Seating2 copy
+    spriteName: Seating2 copy
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 720fca8eff1c8b540bfba45b65e098d8
+    layerID: 151
+    mosaicPosition: {x: 4639, y: 379}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Seating2
+    spriteName: Seating2
+    isGroup: 0
+    parentIndex: 26
+    spriteID: ee3434f337bd6f34aa73ae7ea3bdc334
+    layerID: 17
+    mosaicPosition: {x: 4620, y: 1964}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room6
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: df6d875facfed8944940b3ef18813ace
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Laboratory Setup
+    spriteName: Laboratory Setup
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 8ea84729c771138459e66e37a6701bde
+    layerID: 19
+    mosaicPosition: {x: 4166, y: 1744}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Room7
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: b248f425dd104db4fad2300cc277e4f6
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Main Bed copy
+    spriteName: Main Bed copy
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 4705d51e4ecf5cc488f3c7844ba3fd01
+    layerID: 172
+    mosaicPosition: {x: 4166, y: 727}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Microscope
+    spriteName: Microscope
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 46c12fa5dd35b0148a805be48a6f060b
+    layerID: 164
+    mosaicPosition: {x: 4733, y: 3883}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: reception
+    spriteName: reception
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 86804381731d67840a88db67b7ff2c8b
+    layerID: 21
+    mosaicPosition: {x: 4166, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Outer Walls
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: bf267f6fcc0c10e41926ec6e20cb4918
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Outer Wall1
+    spriteName: Outer Wall1
+    isGroup: 0
+    parentIndex: 37
+    spriteID: f762856094e8d6c44a7283473088b5a9
+    layerID: 22
+    mosaicPosition: {x: 4865, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Outer Wall2
+    spriteName: Outer Wall2
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 79d557e6e8b1fb544b83a4cfef9e63c1
+    layerID: 23
+    mosaicPosition: {x: 4090, y: 4068}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Outer Wall3
+    spriteName: Outer Wall3
+    isGroup: 0
+    parentIndex: 37
+    spriteID: ae4b0ce7049f1794a8d813e84c5ca5c1
+    layerID: 24
+    mosaicPosition: {x: 4090, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Outer Wall4
+    spriteName: Outer Wall4
+    isGroup: 0
+    parentIndex: 37
+    spriteID: dc6eb112cf058494db5da2790dc11137
+    layerID: 25
+    mosaicPosition: {x: 4935, y: 260}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Outer Wall5
+    spriteName: Outer Wall5
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 231f5cfebe4213748ba2cfaa66ca0208
+    layerID: 26
+    mosaicPosition: {x: 4935, y: 182}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Walls
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 431407a67261d1e46906846143dd3dd2
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Inner Wall1
+    spriteName: Inner Wall1
+    isGroup: 0
+    parentIndex: 43
+    spriteID: aeb7369bc9d23574e8856305fa04d24e
+    layerID: 29
+    mosaicPosition: {x: 7777, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall2
+    spriteName: Inner Wall2
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 8d6348fd097537249abf745d73a731dd
+    layerID: 30
+    mosaicPosition: {x: 7417, y: 260}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall3
+    spriteName: Inner Wall3
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 986e9010dd393eb469dbc85b611cdfc1
+    layerID: 31
+    mosaicPosition: {x: 6764, y: 260}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall4
+    spriteName: Inner Wall4
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 611b86bd0d8efea4b87c8ee133d7c16e
+    layerID: 32
+    mosaicPosition: {x: 4716, y: 727}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall5
+    spriteName: Inner Wall5
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 5192925b2c538de46ab8de42627c3113
+    layerID: 33
+    mosaicPosition: {x: 4757, y: 379}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall6
+    spriteName: Inner Wall6
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 572d8152bc6c07b4db55fe441502ac65
+    layerID: 34
+    mosaicPosition: {x: 4935, y: 334}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall7
+    spriteName: Inner Wall7
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 3f92ef2d32102124c8f4ba85acbd91fd
+    layerID: 35
+    mosaicPosition: {x: 4733, y: 3468}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall8
+    spriteName: Inner Wall8
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 0a7af8f017e75e443be24af1e175e367
+    layerID: 36
+    mosaicPosition: {x: 4504, y: 3300}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall9
+    spriteName: Inner Wall9
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 3d8219d575b731d49a4ab9fd6ce24d44
+    layerID: 37
+    mosaicPosition: {x: 4166, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall10
+    spriteName: Inner Wall10
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 935aa7d3f03d3bb4e894016da57cac39
+    layerID: 39
+    mosaicPosition: {x: 5986, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall11
+    spriteName: Inner Wall11
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 96fe5c2508a7d0b45bb7d3fd565821d0
+    layerID: 40
+    mosaicPosition: {x: 4738, y: 1964}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall12
+    spriteName: Inner Wall12
+    isGroup: 0
+    parentIndex: 43
+    spriteID: dc60377b4e81376469f5a30f3a322a23
+    layerID: 41
+    mosaicPosition: {x: 4418, y: 3300}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall13
+    spriteName: Inner Wall13
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 8f8c7fe068991d54fbba33b845324b01
+    layerID: 42
+    mosaicPosition: {x: 4935, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall14
+    spriteName: Inner Wall14
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 2f7d45007da4e7e48b4dcf05c80a0087
+    layerID: 43
+    mosaicPosition: {x: 5587, y: 334}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall15
+    spriteName: Inner Wall15
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 7a38ecb3bc9e4d649b8e80ebcca1558f
+    layerID: 44
+    mosaicPosition: {x: 4247, y: 3320}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall16
+    spriteName: Inner Wall16
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 17bdfb24a7bdc4140b68b10a664c77c6
+    layerID: 45
+    mosaicPosition: {x: 4166, y: 3664}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall17
+    spriteName: Inner Wall17
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 9d0ed2835cb70a343b5fd181d852e389
+    layerID: 46
+    mosaicPosition: {x: 4247, y: 2269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall18
+    spriteName: Inner Wall18
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 0b63bbfbec3f73a40a9935c829f33fba
+    layerID: 47
+    mosaicPosition: {x: 7038, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall19
+    spriteName: Inner Wall19
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 03e6f931d31b9ca4cb9447a8d9814731
+    layerID: 48
+    mosaicPosition: {x: 7727, y: 260}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Inner Wall20
+    spriteName: Inner Wall20
+    isGroup: 0
+    parentIndex: 43
+    spriteID: eabf0544f3ef4044b91d608f23711af3
+    layerID: 49
+    mosaicPosition: {x: 7488, y: 424}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Door
+    spriteName: Door
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 63da90fe4e3536341a0743efddb9c123
+    layerID: 5
+    mosaicPosition: {x: 4418, y: 1744}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor copy
+    spriteName: Floor copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 60d4ede01cd2f4343be9c8ac7300bd58
+    layerID: 150
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Floor
+    spriteName: Floor
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0aedcd8ff8891894c81a8fd9800e3800
+    layerID: 88
+    mosaicPosition: {x: 4, y: 4088}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

@@ -8,7 +8,7 @@ public class Enemy1 : MonoBehaviour
     public Transform target;
     
     NavMeshAgent agent;
-  [SerializeField]  private float rotatespeed=10f;
+    [SerializeField]  private float rotatespeed=10f;
 
     // Start is called before the first frame update
     void Start()
