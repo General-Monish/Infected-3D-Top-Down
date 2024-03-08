@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fef9fa3dc03cd4eb546625950e50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
   patrolPoints:
   - {fileID: 1401269910}
   - {fileID: 1613811413}
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fef9fa3dc03cd4eb546625950e50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
   patrolPoints:
   - {fileID: 1258563528}
   - {fileID: 732111465}
@@ -1785,7 +1785,7 @@ Transform:
   m_GameObject: {fileID: 1591306757}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.0101, y: 15.5874, z: 0}
+  m_LocalPosition: {x: -14.12, y: 14.44, z: 0}
   m_LocalScale: {x: 0.20780002, y: 0.2318, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1803,7 +1803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fef9fa3dc03cd4eb546625950e50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
   patrolPoints:
   - {fileID: 190302887}
   - {fileID: 1942678494}
@@ -2619,7 +2619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fef9fa3dc03cd4eb546625950e50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
   patrolPoints:
   - {fileID: 1745790021}
   - {fileID: 619525040}
@@ -2811,7 +2811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fef9fa3dc03cd4eb546625950e50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 0
   patrolPoints:
   - {fileID: 970060303}
   - {fileID: 618683987}
@@ -3512,6 +3512,14 @@ PrefabInstance:
     - target: {fileID: 2027103432879664119, guid: 5b676de3986197f4fb8e137c30f68aad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6724773328056943023, guid: 5b676de3986197f4fb8e137c30f68aad, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6724773328056943023, guid: 5b676de3986197f4fb8e137c30f68aad, type: 3}
+      propertyPath: m_Acceleration
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
