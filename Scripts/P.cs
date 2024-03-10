@@ -37,7 +37,7 @@ public class P : MonoBehaviour
         {
             MouseMovement();
             SetDestination();
-            rotate();
+            rotate(); // added commint
         }
     }
 
