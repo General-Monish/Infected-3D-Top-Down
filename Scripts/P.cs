@@ -50,16 +50,30 @@ public class P : MonoBehaviour
             anim.SetBool("walk", true);
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = transform.position.z;
+
+            // Check if the clicked position has a collider
+            Collider2D hitCollider = Physics2D.OverlapPoint(mousePosition);
+            if (hitCollider != null)
+            {
+                anim.SetBool("walk", false);
+                // If the clicked position has a collider, don't move the player
+                Debug.Log("Clicked on an object with a collider. Player won't move.");
+                return;
+            }
+
+            // If no collider was found, move the player to the clicked position
+            agent.SetDestination(mousePosition);
             isClicked = true;
         }
 
         // Player is close to the target position, reset movement input
-        if (Vector2.Distance(transform.position, mousePosition) < .1f)
+        if (Vector2.Distance(transform.position, mousePosition) < 0.1f)
         {
             anim.SetBool("walk", false);
             isClicked = false;
         }
     }
+
 
     private void SetDestination()
     {
