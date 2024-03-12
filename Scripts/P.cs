@@ -38,6 +38,8 @@ public class P : MonoBehaviour
             MouseMovement();
             SetDestination();
             rotate(); // added commint
+
+            CheckForEnemy();
         }
     }
 
@@ -67,20 +69,7 @@ public class P : MonoBehaviour
         }
     }
 
-    /*    void rotate()
-        {
-            Vector3 lookDirection = mousePosition - transform.position;
-            float distanceToTarget = Vector2.Distance(transform.position, mousePosition);
-
-            // the player is close to the target
-            if (distanceToTarget > 1f)
-            {
-                float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
-
-                // Use LookAt to set the rotation smoothly
-                transform.up = lookDirection.normalized;
-            }
-        }*/
+    
     void rotate()
     {
         // Checking if the agent has a path
@@ -104,14 +93,19 @@ public class P : MonoBehaviour
 
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void CheckForEnemy()
     {
-        Debug.Log("Collision detected with: " + collision.gameObject.name);
-        if (collision.gameObject.CompareTag("enemy"))
+        // Define a layer mask to filter which objects the ray can hit
+        int enemyLayerMask = 1 << LayerMask.NameToLayer("Enemy");
+
+        // Cast a ray from the player position in the direction the player is facing
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, 1f, enemyLayerMask);
+
+        // If the ray hits something on the "Enemy" layer, it's an enemy
+        if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
-            
             anim.SetTrigger("attack");
-            Destroy(collision.gameObject, 0.5f);
+            Destroy(hit.collider.gameObject, 0.5f);
         }
     }
 
