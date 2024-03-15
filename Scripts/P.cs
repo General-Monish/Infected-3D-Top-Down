@@ -10,6 +10,7 @@ public class P : MonoBehaviour
     private Animator anim;
     private bool isClicked = false;
     private bool isAttacking = false;
+    public GameObject key;
     private void Awake()
     {
         if (instance != null)
@@ -118,19 +119,20 @@ public class P : MonoBehaviour
         if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
             anim.SetTrigger("attack");
-            Destroy(hit.collider.gameObject, 0.5f);
+            Destroy(hit.collider.gameObject);
         }
 
-        if (hit.collider != null && hit.collider.CompareTag("SC")) // For Scientist
-        {
-            // Trigger the attack animation
-            anim.SetTrigger("attack");
 
-            // Destroy the scientist after a delay
-            Destroy(hit.collider.gameObject, 0.5f);
+        if (hit.collider != null && hit.collider.CompareTag("SC"))
+        {
+            anim.SetTrigger("attack");
+            Destroy(hit.collider.gameObject);
+            DropKey();
         }
     }
 
-
-
+    private void DropKey()
+    {
+        Instantiate(key, transform.position + new Vector3(0f, 1f, 0f), Quaternion.identity);
+    }
 }
