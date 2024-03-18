@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent agent;
     private Animator anim;
 
+
     public Transform[] spawnPoints;  // Set this in the inspector
 
     void Start()
@@ -26,6 +27,7 @@ public class EnemyController : MonoBehaviour
 
        
     }
+
 
     void rotate()
     {
