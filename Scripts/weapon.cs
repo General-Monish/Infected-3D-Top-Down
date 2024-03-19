@@ -4,21 +4,29 @@ using UnityEngine;
 
 public class weapon : MonoBehaviour
 {
-    public static weapon instance;
-    public GameObject bulletPrefab;
-    public Transform shotPoint;
-    public float projectileSpeed;
+    public GameObject projectile;
+    private Transform player;
+    private float timeBetShots;
+    public float startTimeBetShots;
+    
 
     private void Start()
     {
-        if (instance == null)
-        {
-               instance = this;
-        }
+        player=GameObject.FindGameObjectWithTag("Player").transform;
+        timeBetShots = startTimeBetShots;
     }
+
+
     public void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, shotPoint.position, Quaternion.identity);
-        bullet.GetComponent<Rigidbody2D>().AddForce(shotPoint.up * projectileSpeed, ForceMode2D.Impulse);
+        if (timeBetShots <= 0)
+        {
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            timeBetShots = startTimeBetShots;
+        }
+        else
+        {
+            timeBetShots -= Time.deltaTime;
+        }
     }
 }

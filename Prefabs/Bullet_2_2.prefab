@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2909665858359311985}
   - component: {fileID: 6561440097314615657}
   - component: {fileID: 476462833405718520}
-  - component: {fileID: 83421734702468245}
+  - component: {fileID: 6658724210372432416}
   m_Layer: 0
   m_Name: Bullet_2_2
   m_TagString: Untagged
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &83421734702468245
+--- !u!114 &6658724210372432416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,6 +168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8540334671122738972}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3273b8f5bc36a304e91d1dfd7dcad7d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 31d9ab4c1afbc5f40be8f96dcc5d78d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1

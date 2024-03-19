@@ -8,7 +8,12 @@ public class AI_FOV : MonoBehaviour
     public LayerMask targetMask; // Layer mask for detecting targets (e.g., player)
     public string playerTag = "Player"; // Tag of the player object
 
-    
+    weapon Weaponss;
+
+    private void Start()
+    {
+        Weaponss=GetComponent<weapon>();
+    }
 
     private void Update()
     {
@@ -35,6 +40,7 @@ public class AI_FOV : MonoBehaviour
                     {
                         // Player is within FOV and not obstructed, print message to console
                         Debug.Log("Player detected!");
+                        Weaponss.Shoot();
                         return;
                     }
                 }
