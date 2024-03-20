@@ -7,21 +7,35 @@ public class Projectile : MonoBehaviour
     private Transform player;
     public float speed;
     private Vector2 target;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        target=new Vector2(player.position.x, player.position.y);
+        target = player.position;
+        RotateTowardsTarget();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, target, speed*Time.deltaTime);
-        if(transform.position.x==target.x && transform.position.y == target.y)
+        MoveTowardsTarget();
+    }
+
+    void MoveTowardsTarget()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (transform.position.x == target.x && transform.position.y == target.y)
         {
             DestroyProjectile();
         }
+    }
+
+    void RotateTowardsTarget()
+    {
+        Vector3 direction = target - (Vector2)transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
