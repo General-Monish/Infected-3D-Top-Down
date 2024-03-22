@@ -8,17 +8,34 @@ public class AI_FOV : MonoBehaviour
     public LayerMask targetMask; // Layer mask for detecting targets (e.g., player)
     public string playerTag = "Player"; // Tag of the player object
 
+    public bool playerDetected=false;
+    EnemyController enemyController;
+
     weapon Weaponss;
 
     private void Start()
     {
+        enemyController = GetComponentInParent<EnemyController>();
         Weaponss=GetComponent<weapon>();
     }
 
     private void Update()
     {
-        CheckForPlayerInFOV();
+        if (!playerDetected)
+        {
+            CheckForPlayerInFOV();
+            enemyController.Moving(); // Make sure enemy continues moving when player is not detected
+        }
+        else
+        {
+            // Player is detected
+            Debug.Log("Player detected!");
+            enemyController.Stop(); // Stop enemy movement
+            Weaponss.Shoot(); // Shoot at the player
+            playerDetected = false;
+        }
     }
+
 
     private void CheckForPlayerInFOV()
     {
@@ -38,9 +55,7 @@ public class AI_FOV : MonoBehaviour
                     RaycastHit2D hit = Physics2D.Raycast(transform.position, dirToTarget, viewLength, targetMask);
                     if (hit.collider != null && hit.collider.CompareTag(playerTag))
                     {
-                        // Player is within FOV and not obstructed, print message to console
-                        Debug.Log("Player detected!");
-                        Weaponss.Shoot();
+                       playerDetected= true;
                         return;
                     }
                 }

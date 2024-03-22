@@ -4,7 +4,6 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     private NavMeshAgent agent;
-    private Animator anim;
 
 
     public Transform[] spawnPoints;  // Set this in the inspector
@@ -12,7 +11,6 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        anim = GetComponent<Animator>();
         SetRandomDestination();  // Set initial destination
     }
 
@@ -22,12 +20,17 @@ public class EnemyController : MonoBehaviour
         {
             SetRandomDestination();
         }
-
         rotate();
-
-       
     }
 
+    public void Stop()
+    {
+        agent.isStopped = true;
+    }
+    public void Moving()
+    {
+        agent.isStopped = false;
+    }
 
     void rotate()
     {
@@ -56,4 +59,6 @@ public class EnemyController : MonoBehaviour
         destination.z = 0f;  // Set z position to zero
         agent.SetDestination(destination);
     }
+
+   
 }
