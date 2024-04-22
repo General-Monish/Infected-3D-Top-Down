@@ -63,7 +63,7 @@ public class AI_FOV : MonoBehaviour
         }
     }
 
-
+    // nothing 
     private void OnDrawGizmos()
     {
         // Visualize the FOV

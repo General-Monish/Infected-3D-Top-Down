@@ -6,12 +6,12 @@ public class EnemyController : MonoBehaviour
     private NavMeshAgent agent;
 
 
-    public Transform[] spawnPoints;  // Set this in the inspector
+    public Transform[] spawnPoints;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        SetRandomDestination();  // Set initial destination
+        SetRandomDestination();  // Setting initial destination
     }
 
     void Update()
