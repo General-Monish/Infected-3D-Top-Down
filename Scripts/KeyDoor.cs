@@ -26,5 +26,5 @@ public class KeyDoor : MonoBehaviour
     public void PlayOpenFailAnim()
     {
         //doorAnims.PlayOpenFailAnim();
-    }// nothng
+    }
 }

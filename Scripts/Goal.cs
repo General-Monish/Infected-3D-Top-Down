@@ -56,7 +56,7 @@ public class Goal : MonoBehaviour
                 // Currently holding Key to open this door
                 RemoveKey(keyDoor.GetKeyType());
                 Debug.Log("Door");
-                SceneManager.LoadScene("test");
+                SceneManager.LoadScene("Game2");
                 //keyDoor.OpenDoor();
             }
             else
