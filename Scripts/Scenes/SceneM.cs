@@ -18,11 +18,12 @@ public class SceneM : MonoBehaviour
     }
     public void PlayButton()
     {
-        SceneManager.LoadScene("Game");
+        SceneLoader.Load(SceneLoader.Scene.Game);
     }
 
     public void BackButtonToMainMenu()
     {
+
         SettingsPanel.SetActive(false);
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
