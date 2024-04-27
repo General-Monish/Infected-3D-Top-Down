@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: {fileID: 5313012645454821249, guid: 9cddb930192819149bbd2e5af13548d6, type: 3}
+  objectivePanel: {fileID: 5383060176472950953, guid: cce63941d44827f48b731260ab7236d3, type: 3}
 --- !u!195 &6724773328056943023
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -21,8 +21,6 @@ public static class SceneLoader
         SceneLoader.targetScene = targetScene;
 
         SceneManager.LoadScene(Scene.LD.ToString());
-
-        
     }
 
     public static void LoaderCallBack()
