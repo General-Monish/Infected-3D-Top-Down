@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,25 +10,19 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject PauseButtonPanel;
     [SerializeField]
-    public GameObject pauseButton;
+    private GameObject pauseButton;
+    [SerializeField]
+    private GameObject tutorialPanel;
 
     private void Awake()
     {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+        tutorialPanel.SetActive(true);
+        Instance = this;
     }
 
     private void Start()
     {
-        
-        Timer.Instance.OnTimerFished += Timer_OnTimerFinished;
+        pauseButton.SetActive(true);
     }
 
     private void Timer_OnTimerFinished()
@@ -52,7 +47,12 @@ public class GameManager : MonoBehaviour
     public void MainMenuBtn()
     {
         PauseButtonPanel.SetActive(false);
-        SceneLoader.Load(SceneLoader.Scene.MM);
+        SceneManager.LoadScene("MM");
     }
 
+    public void NextBtn()
+    {
+        Time.timeScale = 1;
+        tutorialPanel.SetActive(false);
+    }
 }

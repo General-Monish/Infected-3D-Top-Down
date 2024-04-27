@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneM : MonoBehaviour
 {
+
     [SerializeField]
     private GameObject mainMenuPanel;
     [SerializeField]
@@ -18,7 +19,7 @@ public class SceneM : MonoBehaviour
     }
     public void PlayButton()
     {
-        SceneLoader.Load(SceneLoader.Scene.Game);
+        SceneManager.LoadScene("Game");
     }
 
     public void BackButtonToMainMenu()
