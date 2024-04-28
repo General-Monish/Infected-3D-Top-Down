@@ -28,7 +28,7 @@ public class SceneM : MonoBehaviour
 
     public void PlayButton()
     {
-        SceneManager.LoadScene("Game");
+        LoadingMangaer.Instance.SwitchToScreen(1);
     }
 
     public void BackButtonToMainMenu()
