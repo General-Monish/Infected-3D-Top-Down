@@ -3,23 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GM2 : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GM2 Instance { get; private set; }
 
     [SerializeField]
     private GameObject PauseButtonPanel;
     [SerializeField]
     private GameObject pauseButton;
     [SerializeField]
-    private GameObject tutorialPanel;
-    [SerializeField]
     private GameObject playerPrefab;
 
     private void Awake()
     {
         playerPrefab.SetActive(false);
-        tutorialPanel.SetActive(true);
         Instance = this;
     }
 
@@ -53,12 +50,5 @@ public class GameManager : MonoBehaviour
     {
         PauseButtonPanel.SetActive(false);
         SceneManager.LoadScene("MM");
-    }
-
-    public void NextBtn()
-    {
-        playerPrefab.SetActive(true);
-        Time.timeScale = 1;
-        tutorialPanel.SetActive(false);
     }
 }
