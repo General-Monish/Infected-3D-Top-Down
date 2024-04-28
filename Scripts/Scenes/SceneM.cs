@@ -13,10 +13,19 @@ public class SceneM : MonoBehaviour
     [SerializeField]
     private GameObject SettingsPanel;
 
+    private static SceneM instance;
+
+    private void Awake()
+    {
+       instance = this;
+    }
+
     private void Start()
     {
         mainMenuPanel.SetActive(true);
     }
+
+
     public void PlayButton()
     {
         SceneManager.LoadScene("Game");
@@ -32,6 +41,7 @@ public class SceneM : MonoBehaviour
 
     public void CreditsButton()
     {
+        Debug.Log("Credits button clicked");
         creditsPanel.SetActive(true);
         SettingsPanel.SetActive(false);
         mainMenuPanel.SetActive(false);

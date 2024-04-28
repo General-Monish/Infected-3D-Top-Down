@@ -38,7 +38,6 @@ public class Goal : MonoBehaviour
         return keyList.Contains(keyType);
     }
 
-
     private void OnTriggerEnter2D(Collider2D collider)
     {
         KeyScript key = collider.GetComponent<KeyScript>();
@@ -56,13 +55,21 @@ public class Goal : MonoBehaviour
                 // Currently holding Key to open this door
                 RemoveKey(keyDoor.GetKeyType());
                 Debug.Log("Door");
-                SceneManager.LoadScene("Game2");
-                //keyDoor.OpenDoor();
+                // Door Animation
+                Debug.Log("door animation");
+                keyDoor.OpenDoor();
+                StartCoroutine(LoadSceneAfterDelay("Game2", 1f));
             }
             else
             {
                 keyDoor.PlayOpenFailAnim();
             }
         }
+    }
+
+    private IEnumerator LoadSceneAfterDelay(string sceneName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(sceneName);
     }
 }
