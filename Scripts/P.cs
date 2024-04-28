@@ -12,6 +12,9 @@ public class P : MonoBehaviour
     private bool isAttacking = false;
     public GameObject key;
 
+    [SerializeField]
+    private GameObject bloodEffectPrefab;
+
     private void Awake()
     {
         if (instance != null)
@@ -108,6 +111,8 @@ public class P : MonoBehaviour
         {
             isAttacking = true;
             anim.SetTrigger("attack");
+            Debug.Log("bloodEffect called");
+            Instantiate(bloodEffectPrefab, hit.point, Quaternion.identity);
             agent.isStopped = true;
             Destroy(hit.collider.gameObject);
             Invoke("ResetAttack", 1.0f);
@@ -117,6 +122,7 @@ public class P : MonoBehaviour
         {
             isAttacking = true;
             anim.SetTrigger("attack");
+            Instantiate(bloodEffectPrefab, hit.point, Quaternion.identity);
             agent.isStopped = true;
             Destroy(hit.collider.gameObject);
             DropKey();

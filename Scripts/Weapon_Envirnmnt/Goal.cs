@@ -54,11 +54,12 @@ public class Goal : MonoBehaviour
             {
                 // Currently holding Key to open this door
                 RemoveKey(keyDoor.GetKeyType());
-                Debug.Log("Door");
+
                 // Door Animation
-                Debug.Log("door animation");
                 keyDoor.OpenDoor();
-                StartCoroutine(LoadSceneAfterDelay("Game2", 1f));
+
+                // Wait for 1 second before loading the screen
+                StartCoroutine(LoadScreenAfterDelay());
             }
             else
             {
@@ -67,9 +68,9 @@ public class Goal : MonoBehaviour
         }
     }
 
-    private IEnumerator LoadSceneAfterDelay(string sceneName, float delay)
+    private IEnumerator LoadScreenAfterDelay()
     {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(sceneName);
+        yield return new WaitForSeconds(1f);
+        LoadingMangaer.Instance.SwitchToScreen(2);
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 328bdd490562d764baf840adc75f6dbd
+guid: 92e56a83d4016d54ea3a8383003a8168
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,274 +149,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPlatter_5
+      name: Blood effect4_0
       rect:
         serializedVersion: 2
-        x: 547
-        y: 471
-        width: 191
-        height: 153
+        x: 0
+        y: 245
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33a80041c0cfe004f8a8afd755b74f39
-      internalID: -476876987
+      spriteID: 0b7568bbabe31384c8bc97b5e6fbddc3
+      internalID: 633270168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_12
+      name: Blood effect4_1
       rect:
         serializedVersion: 2
-        x: 766
-        y: 449
-        width: 247
-        height: 172
+        x: 216
+        y: 237
+        width: 41
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b3d89e74b4fbdb4eb6f3c401d8c7196
-      internalID: 482995595
+      spriteID: 198bdb761b699e640b4860732c588490
+      internalID: 249947294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_14
+      name: Blood effect4_2
       rect:
         serializedVersion: 2
-        x: 43
-        y: 488
-        width: 126
-        height: 109
+        x: 344
+        y: 229
+        width: 48
+        height: 56
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 988942a2de8306449ac655e6a4142ac5
-      internalID: 1510006807
+      spriteID: 1d42da9155e2ac24e854630987830056
+      internalID: -756827498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_16
+      name: Blood effect4_3
       rect:
         serializedVersion: 2
-        x: 330
-        y: 487
-        width: 180
-        height: 117
+        x: 472
+        y: 221
+        width: 56
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1333714898b96419dd779fa930241f
-      internalID: -260550091
+      spriteID: 4ae0bdfa29b37574a850218a0e82ae68
+      internalID: 517049172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_25
+      name: Blood effect4_4
       rect:
         serializedVersion: 2
-        x: 215
-        y: 495
-        width: 97
-        height: 85
+        x: 632
+        y: 213
+        width: 72
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4abac5e871daab84781386091f37d584
-      internalID: 76742929
+      spriteID: 90de056940e62dd4fb2b6e4e48d753f4
+      internalID: 1187269534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_53
+      name: Blood effect4_5
       rect:
         serializedVersion: 2
-        x: 41
-        y: 529
-        width: 4
-        height: 4
+        x: 701
+        y: 227
+        width: 35
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7558be1810ab0645b58b910b1488883
-      internalID: 1347003302
+      spriteID: 3c263a3f5b4bc294296cdd602611cb14
+      internalID: 869626042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_69
+      name: Blood effect4_6
       rect:
         serializedVersion: 2
-        x: 20
-        y: 222
-        width: 253
-        height: 192
+        x: 816
+        y: 181
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afb355a3776e2674e8418780ea9ec409
-      internalID: 698277357
+      spriteID: 43182b7c14330b44c89611f0e2c0f5a5
+      internalID: -631549849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_74
+      name: Blood effect4_7
       rect:
         serializedVersion: 2
-        x: 314
-        y: 222
-        width: 248
-        height: 172
+        x: 48
+        y: 45
+        width: 152
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 527a1fd1bb613c6408ba2042c59cd2bf
-      internalID: -1996811210
+      spriteID: 0f9568cf3f2d84946a7ceb2a0e986984
+      internalID: -1880984403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_79
+      name: Blood effect4_8
       rect:
         serializedVersion: 2
-        x: 580
-        y: 231
-        width: 191
+        x: 88
+        y: 153
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8333c3158d7e1d4a80055cb2bf53c6e
+      internalID: 2098081455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood effect4_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 37
+        width: 136
         height: 152
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82bd74fbef457ed49990f7bb388221e1
-      internalID: -1532654152
+      spriteID: 1bf9287442e867b4f8a4e38fb5eadcd6
+      internalID: 977175385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_82
+      name: Blood effect4_10
       rect:
         serializedVersion: 2
-        x: 822
-        y: 226
-        width: 184
-        height: 118
+        x: 496
+        y: 37
+        width: 88
+        height: 136
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a93f1b70883e5024486ec9476ba812f8
-      internalID: 621625256
+      spriteID: 51e989c55e5990a40b99f9b9dfb4df72
+      internalID: 549843641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_87
+      name: Blood effect4_11
       rect:
         serializedVersion: 2
-        x: 3
-        y: 326
-        width: 5
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46d478a032ea303408043ecbde6ac95a
-      internalID: -1113742558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPlatter_134
-      rect:
-        serializedVersion: 2
-        x: 193
+        x: 640
         y: 36
-        width: 124
-        height: 109
+        width: 136
+        height: 138
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 974e47e23ee2d674f8c79bb926524e7f
-      internalID: -869283857
+      spriteID: ec3938059043d874d91bdd6de56b2d04
+      internalID: -1152943160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPlatter_136
+      name: Blood effect4_12
       rect:
         serializedVersion: 2
-        x: 67
-        y: 43
-        width: 100
-        height: 95
+        x: 848
+        y: 53
+        width: 88
+        height: 104
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4f8863f7c89da042a169e9050a06baf
-      internalID: -1348428670
+      spriteID: b695fb35d310503439cb0fdbc41800f2
+      internalID: -2120220375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood effect4_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 37
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6903df7c2f4c834ab1bffd1dbda8671
+      internalID: -575312235
       vertices: []
       indices: 
       edges: []
@@ -432,150 +453,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SPlatter_0: -292586577
-      SPlatter_1: -1317207267
-      SPlatter_10: -1172280820
-      SPlatter_100: 1291984875
-      SPlatter_101: -578264159
-      SPlatter_102: -1480022349
-      SPlatter_103: 1225755005
-      SPlatter_104: -1060266123
-      SPlatter_105: -1198566894
-      SPlatter_106: 1116264860
-      SPlatter_107: 407382403
-      SPlatter_108: 2089009605
-      SPlatter_109: -586784622
-      SPlatter_11: 7313308
-      SPlatter_110: 723246082
-      SPlatter_111: -1834135137
-      SPlatter_112: 1918236729
-      SPlatter_113: 1732097134
-      SPlatter_114: 1545347514
-      SPlatter_115: 931513127
-      SPlatter_116: 2026184037
-      SPlatter_117: 1674197407
-      SPlatter_118: -250352442
-      SPlatter_119: 735646796
-      SPlatter_12: 482995595
-      SPlatter_120: -1761367180
-      SPlatter_121: -790768797
-      SPlatter_122: -831178426
-      SPlatter_123: -847910945
-      SPlatter_124: 2072433170
-      SPlatter_125: 979302403
-      SPlatter_126: -1876991647
-      SPlatter_127: 645365710
-      SPlatter_128: -61537386
-      SPlatter_129: -1807504006
-      SPlatter_13: -68067824
-      SPlatter_130: 400308581
-      SPlatter_131: 1152320286
-      SPlatter_132: -880497301
-      SPlatter_133: -969449122
-      SPlatter_134: -869283857
-      SPlatter_135: -1638553591
-      SPlatter_136: -1348428670
-      SPlatter_137: -1580433393
-      SPlatter_138: 1084540347
-      SPlatter_139: -1975160707
-      SPlatter_14: 1510006807
-      SPlatter_140: 244105966
-      SPlatter_141: 837331229
-      SPlatter_142: -1901280907
-      SPlatter_143: -844190614
-      SPlatter_15: -533611010
-      SPlatter_16: -260550091
-      SPlatter_17: -1875182118
-      SPlatter_18: 1469198904
-      SPlatter_19: 2071480207
-      SPlatter_2: -1002594025
-      SPlatter_20: -1887826627
-      SPlatter_21: -652867005
-      SPlatter_22: -550239694
-      SPlatter_23: -266249218
-      SPlatter_24: -1377065058
-      SPlatter_25: 76742929
-      SPlatter_26: 774523475
-      SPlatter_27: -1029402720
-      SPlatter_28: -1054031883
-      SPlatter_29: -761055698
-      SPlatter_3: 699496392
-      SPlatter_30: -1218262916
-      SPlatter_31: 1497495227
-      SPlatter_32: -578280673
-      SPlatter_33: 1844261984
-      SPlatter_34: -669516548
-      SPlatter_35: 1821192090
-      SPlatter_36: 1979705604
-      SPlatter_37: -1556967808
-      SPlatter_38: 713775071
-      SPlatter_39: 450532537
-      SPlatter_4: -1624632248
-      SPlatter_40: 338443746
-      SPlatter_41: 944847058
-      SPlatter_42: -2047339561
-      SPlatter_43: 1663092737
-      SPlatter_44: 1052167578
-      SPlatter_45: -1537671346
-      SPlatter_46: 633889775
-      SPlatter_47: -1497034965
-      SPlatter_48: -1620945353
-      SPlatter_49: 1679818025
-      SPlatter_5: -476876987
-      SPlatter_50: -350848100
-      SPlatter_51: 1574367114
-      SPlatter_52: -1146258485
-      SPlatter_53: 1347003302
-      SPlatter_54: -1999092752
-      SPlatter_55: 180766607
-      SPlatter_56: -703337590
-      SPlatter_57: 1106994045
-      SPlatter_58: 756002975
-      SPlatter_59: -263278638
-      SPlatter_6: -5381389
-      SPlatter_60: 902473716
-      SPlatter_61: 361428148
-      SPlatter_62: -1617875262
-      SPlatter_63: -21397565
-      SPlatter_64: -949695086
-      SPlatter_65: 490426462
-      SPlatter_66: -2074348760
-      SPlatter_67: 1810769458
-      SPlatter_68: -368821313
-      SPlatter_69: 698277357
-      SPlatter_7: 2131957721
-      SPlatter_70: -46355096
-      SPlatter_71: 300904283
-      SPlatter_72: 1460833316
-      SPlatter_73: -591496031
-      SPlatter_74: -1996811210
-      SPlatter_75: -87543621
-      SPlatter_76: 1698553021
-      SPlatter_77: -1312419671
-      SPlatter_78: -2060972973
-      SPlatter_79: -1532654152
-      SPlatter_8: 984509866
-      SPlatter_80: -1074969689
-      SPlatter_81: 861370556
-      SPlatter_82: 621625256
-      SPlatter_83: 1090466601
-      SPlatter_84: 1773726729
-      SPlatter_85: 370697906
-      SPlatter_86: 1742359993
-      SPlatter_87: -1113742558
-      SPlatter_88: 1697041159
-      SPlatter_89: 1881516206
-      SPlatter_9: -1300007596
-      SPlatter_90: 1217751940
-      SPlatter_91: 172228566
-      SPlatter_92: 1139214485
-      SPlatter_93: -2000010137
-      SPlatter_94: -22278641
-      SPlatter_95: -1582802864
-      SPlatter_96: -2035942561
-      SPlatter_97: 507819298
-      SPlatter_98: -479946098
-      SPlatter_99: 703232599
+      Blood effect4_0: 633270168
+      Blood effect4_1: 249947294
+      Blood effect4_10: 549843641
+      Blood effect4_11: -1152943160
+      Blood effect4_12: -2120220375
+      Blood effect4_13: -575312235
+      Blood effect4_2: -756827498
+      Blood effect4_3: 517049172
+      Blood effect4_4: 1187269534
+      Blood effect4_5: 869626042
+      Blood effect4_6: -631549849
+      Blood effect4_7: -1880984403
+      Blood effect4_8: 2098081455
+      Blood effect4_9: 977175385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
