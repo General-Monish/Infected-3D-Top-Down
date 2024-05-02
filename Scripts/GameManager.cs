@@ -28,13 +28,9 @@ public class GameManager : MonoBehaviour
         pauseButton.SetActive(true);
     }
 
-    private void Timer_OnTimerFinished()
-    {
-        pauseButton.SetActive(true);
-    }
-
     public void ResumeBtn()
     {
+        
         playerPrefab.SetActive(true);
         PauseButtonPanel.SetActive(false);
         pauseButton.SetActive(true);
@@ -43,6 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void PauseBtn()
     {
+        
         playerPrefab.SetActive(false);
         Time.timeScale = 0;
         pauseButton.SetActive(false);
@@ -52,7 +49,8 @@ public class GameManager : MonoBehaviour
     public void MainMenuBtn()
     {
         PauseButtonPanel.SetActive(false);
-        SceneManager.LoadScene("MM");
+        LoadingMangaer.Instance.SwitchToScreen(0);
+        // nthng 
     }
 
     public void NextBtn()

@@ -12,20 +12,18 @@ public class GM2 : MonoBehaviour
     [SerializeField]
     private GameObject pauseButton;
     [SerializeField]
+    private GameObject tutorialPanel;
+    [SerializeField]
     private GameObject playerPrefab;
 
     private void Awake()
     {
         playerPrefab.SetActive(false);
+        tutorialPanel.SetActive(true);
         Instance = this;
     }
 
     private void Start()
-    {
-        pauseButton.SetActive(true);
-    }
-
-    private void Timer_OnTimerFinished()
     {
         pauseButton.SetActive(true);
     }
@@ -49,6 +47,13 @@ public class GM2 : MonoBehaviour
     public void MainMenuBtn()
     {
         PauseButtonPanel.SetActive(false);
-        SceneManager.LoadScene("MM");
+        LoadingMangaer.Instance.SwitchToScreen(0);
+    }
+
+    public void NextBtn()
+    {
+        playerPrefab.SetActive(true);
+        Time.timeScale = 1;
+        tutorialPanel.SetActive(false);
     }
 }

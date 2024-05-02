@@ -13,6 +13,8 @@ public class SceneM : MonoBehaviour
     [SerializeField]
     private GameObject SettingsPanel;
 
+    private AudioSource audioSource;
+
     private static SceneM instance;
 
     private void Awake()
@@ -22,18 +24,20 @@ public class SceneM : MonoBehaviour
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         mainMenuPanel.SetActive(true);
     }
 
 
     public void PlayButton()
     {
+        audioSource.Play();
         LoadingMangaer.Instance.SwitchToScreen(1);
     }
 
     public void BackButtonToMainMenu()
     {
-
+        audioSource.Play();
         SettingsPanel.SetActive(false);
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
@@ -41,6 +45,7 @@ public class SceneM : MonoBehaviour
 
     public void CreditsButton()
     {
+        audioSource.Play();
         Debug.Log("Credits button clicked");
         creditsPanel.SetActive(true);
         SettingsPanel.SetActive(false);
@@ -49,6 +54,7 @@ public class SceneM : MonoBehaviour
 
     public void SettingsButton()
     {
+        audioSource.Play();
         SettingsPanel.SetActive(true);
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(false);
