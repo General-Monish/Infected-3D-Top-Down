@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneM : MonoBehaviour
 {
-
     [SerializeField]
     private GameObject mainMenuPanel;
     [SerializeField]
@@ -13,8 +12,7 @@ public class SceneM : MonoBehaviour
     [SerializeField]
     private GameObject SettingsPanel;
 
-    private AudioSource audioSource;
-
+    
     private static SceneM instance;
 
     private void Awake()
@@ -24,20 +22,19 @@ public class SceneM : MonoBehaviour
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         mainMenuPanel.SetActive(true);
     }
 
 
     public void PlayButton()
     {
-        audioSource.Play();
+        FindObjectOfType<AudioManager>().Play("Button");
         LoadingMangaer.Instance.SwitchToScreen(1);
     }
 
     public void BackButtonToMainMenu()
     {
-        audioSource.Play();
+        FindObjectOfType<AudioManager>().Play("Button");
         SettingsPanel.SetActive(false);
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
@@ -45,8 +42,7 @@ public class SceneM : MonoBehaviour
 
     public void CreditsButton()
     {
-        audioSource.Play();
-        Debug.Log("Credits button clicked");
+        FindObjectOfType<AudioManager>().Play("Button");
         creditsPanel.SetActive(true);
         SettingsPanel.SetActive(false);
         mainMenuPanel.SetActive(false);
@@ -54,13 +50,14 @@ public class SceneM : MonoBehaviour
 
     public void SettingsButton()
     {
-        audioSource.Play();
+        FindObjectOfType<AudioManager>().Play("Button");
         SettingsPanel.SetActive(true);
         creditsPanel.SetActive(false);
         mainMenuPanel.SetActive(false);
     }
     public void QuitButton()
     {
+        FindObjectOfType<AudioManager>().Play("Button");
         Application.Quit();
     }
 }

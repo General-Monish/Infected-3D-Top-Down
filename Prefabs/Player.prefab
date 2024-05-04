@@ -72,7 +72,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 8.36
+  m_Radius: 5.64
 --- !u!95 &6221170751914462008
 Animator:
   serializedVersion: 5
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: {fileID: 5313012645454821249, guid: 9cddb930192819149bbd2e5af13548d6, type: 3}
-  bloodEffectPrefab: {fileID: 93311645136498035, guid: 254bece90a87fb9419efeb717871ce20, type: 3}
+  bloodEffectPrefab: {fileID: 2862981367844860026, guid: 6c2be2cc866deb34fbaf5781afa54de9, type: 3}
 --- !u!195 &6724773328056943023
 NavMeshAgent:
   m_ObjectHideFlags: 0

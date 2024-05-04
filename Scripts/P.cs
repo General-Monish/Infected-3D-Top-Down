@@ -111,7 +111,7 @@ public class P : MonoBehaviour
         {
             isAttacking = true;
             anim.SetTrigger("attack");
-            Debug.Log("bloodEffect called");
+            FindObjectOfType<AudioManager>().Play("Attack");
             Instantiate(bloodEffectPrefab, hit.point, Quaternion.identity);
             agent.isStopped = true;
             Destroy(hit.collider.gameObject);
@@ -122,6 +122,7 @@ public class P : MonoBehaviour
         {
             isAttacking = true;
             anim.SetTrigger("attack");
+            FindObjectOfType<AudioManager>().Play("Attack");
             Instantiate(bloodEffectPrefab, hit.point, Quaternion.identity);
             agent.isStopped = true;
             Destroy(hit.collider.gameObject);

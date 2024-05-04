@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     public void ResumeBtn()
     {
-        
+        FindObjectOfType<AudioManager>().Play("Button");
         playerPrefab.SetActive(true);
         PauseButtonPanel.SetActive(false);
         pauseButton.SetActive(true);
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void PauseBtn()
     {
-        
+        FindObjectOfType<AudioManager>().Play("Button");
         playerPrefab.SetActive(false);
         Time.timeScale = 0;
         pauseButton.SetActive(false);
@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
 
     public void MainMenuBtn()
     {
+        FindObjectOfType<AudioManager>().Play("Button");
         PauseButtonPanel.SetActive(false);
         LoadingMangaer.Instance.SwitchToScreen(0);
         // nthng 
@@ -55,6 +56,7 @@ public class GameManager : MonoBehaviour
 
     public void NextBtn()
     {
+        FindObjectOfType<AudioManager>().Play("Button");
         playerPrefab.SetActive(true);
         Time.timeScale = 1;
         tutorialPanel.SetActive(false);
