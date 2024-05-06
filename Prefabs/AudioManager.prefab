@@ -47,14 +47,14 @@ MonoBehaviour:
   sounds:
   - name: Pain
     audioClip: {fileID: 8300000, guid: 102e31f62205c434398aabe4e5308332, type: 3}
-    volume: 0.851
-    pitch: 0.87
+    volume: 1
+    pitch: 1.7
     loop: 1
     audioSource: {fileID: 0}
   - name: Button
     audioClip: {fileID: 8300000, guid: 456e851ce3bed1947b9837faa1cd14a0, type: 3}
     volume: 1
-    pitch: 1.33
+    pitch: 0.98
     loop: 0
     audioSource: {fileID: 0}
   - name: Attack
@@ -63,3 +63,4 @@ MonoBehaviour:
     pitch: 1.89
     loop: 0
     audioSource: {fileID: 0}
+  slider: {fileID: 4384555740370507506, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
