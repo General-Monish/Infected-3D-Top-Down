@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
         }
+        // kh
         else
         {
             Destroy(gameObject);
@@ -28,7 +29,6 @@ public class AudioManager : MonoBehaviour
             sound.audioSource = gameObject.AddComponent<AudioSource>();
             sound.audioSource.clip = sound.audioClip;
             sound.audioSource.volume = sound.volume;
-            sound.audioSource.pitch = sound.pitch;
             sound.audioSource.loop = sound.loop;
         }
 

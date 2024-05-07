@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.80784315, g: 0.023529412, b: 0.1254902, a: 0.9137255}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9137255}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1998,7 +1998,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1726652768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2829,6 +2829,10 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 1818120335}
+    - target: {fileID: 2414871785441323170, guid: 809e5b00ea05dd64fa15c3e0f4dead30, type: 3}
+      propertyPath: sounds.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 102e31f62205c434398aabe4e5308332, type: 3}
     - target: {fileID: 8231347115888857464, guid: 809e5b00ea05dd64fa15c3e0f4dead30, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2889,6 +2893,10 @@ PrefabInstance:
     - target: {fileID: 1320712497404676925, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_Name
       value: slider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384555740370507506, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
+      propertyPath: m_Value
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4623306426349490884, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_Pivot.x
@@ -2972,23 +2980,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4823016649276556088, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4823016649276556088, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4823016649276556088, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5170538743662958368, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5170538743662958368, guid: 5c2a4a6456496f84f81c2354b6f39e45, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
